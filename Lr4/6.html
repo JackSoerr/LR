@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Оператор return</title>
+
+    <script type="text/javascript">
+
+    function Stepen(number, stepen) 
+    {     
+        alert('Hello!'); // return прерывает выполнение кода
+        var result;
+        result = number;
+        for(var i = 1; i < stepen; i++)
+        {
+            result = result * number;
+        }
+        return result;
+      }
+
+        var res = Stepen(2, 3);
+
+        document.write(res);
+
+    </script>
+
+</head>
+<body>
+</body>
+</html>
