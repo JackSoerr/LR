@@ -54,13 +54,11 @@
       document.write("<div class='container'>");
       for(key in vacation)
       {
-          document.write("<div class='card' style='width: 18rem;'>
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>)
-      }
+          document.write("<div class='card'style = 'width: 18rem;'><img src = '" + vacation[key].img 
+          + " 'class=card-img-top' alt = '...'><div class = 'card-body'<p class='cart-text'>Цена тура " 
+          + vacation.key[price] + "грн. за 1 день </p> <p>" + vacation[key].description + "</p></div> </div>")
+      };
+      document.write("/div");
     </script>
     
   </body>
