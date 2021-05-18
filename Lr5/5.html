@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Создание вложеных обьектов через конструктор</title>
+
+    <script type="text/javascript">
+        var human = new Object();
+
+        human.firstName = "Alex";
+        human.secondName = "Jazun";
+        human.age = 27;
+
+        human.occupation = new Object();
+
+        human.occupation.comapny = "Microsoft";
+        human.occupation.position = "Web Developer";
+
+        document.write("<p>FirstName: " + human.firstName);
+        document.write("<p>SecondName: " + human.secondName);
+        document.write("<p>Age: " + human.age + " years old.");
+
+        document.write("<p>Comapny: " + human.occupation.comapny);
+        document.write("<p>Position: " + human.occupation.position);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
